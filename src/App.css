@@ -177,11 +177,15 @@ div.flotingbox input{
   color: #ff0a0a;
   margin: 10px;
 }
-i#cut{
+#cut{
   background: red;
+  font-size: 1em;
   float:right;
   border: .1px solid red;
   border-radius: 2px;
   text-shadow: 2px 2px 5px;
   box-shadow: 2px 2px 5px;
+}
+.signup{
+  display: none;
 }
