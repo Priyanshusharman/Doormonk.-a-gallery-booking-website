@@ -215,7 +215,7 @@ ul.navlist{
   background-color: #c31c1c;
   width: 88%;
   height: 100vh;
-  z-index: 5;
+  z-index: 3;
 }
 .labelmenu{
   display: block;
