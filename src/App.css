@@ -1,38 +1,187 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+body{background-color: #d6bdbd78;}
+body,
+ul {
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'PT Serif', serif;
+}
+.doormonk{
+  color: rgb(198, 198, 226);
+  text-decoration: none;
+  line-height: 75px;
+  font-size: 3.2em;
+  text-shadow: -2px 4px 20px #c31c1c;
+}
+ul li{
+  line-height: 75px;
+  margin:  0 20px;
+  text-shadow: -1px 4px 20px #d89a9a;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 75px;
+  background-color: rgb(22, 16, 16);
+}
+li a{
+  text-decoration: none;
+  color: rgb(217, 200, 196);
+  font-size: 1.4em;
+}
+.locationsearchinput{
+  border-radius: 20px;
+  height: 32px;
+  width: 249px;
+  font-size: 1.4em;
+  text-align:center
+}
+/* check one */
+.loginsingup{
+  background: transparent;
+  color:  rgb(217, 200, 196);
+  border: none;
+  font-size: 1.2em;
+  text-shadow: -1px 4px 20px #d89a9a;
+}
+ul.navlist {
+  display: flex;
+}
+section.defult{
+  background:url('./image/back.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 515px;
+  box-shadow: -2px 20px 20px 6px;
+}
+div.newstyle{
+  display: flex;
+  font-size: 2.5em;
+  flex-wrap: nowrap;
+  justify-content: right;
+}
+.Homeservice,.HairMan,.hairgirl{
+  color:#ff001a;
+  border: 2px solid white;
+  background-color: rgb(185, 184, 184,0.2);
+  text-shadow: -2px 4px 20px black;
+  margin: 400px 20px 0 2vw;
+  text-decoration: none;
+
+}
+.bookinyouhand{
+  font-family: 'Tilt Prism', cursive;
+  font-size: 4.5em;
+  position: absolute;
+  word-wrap: unset;
+  left: 5vw;
+  color: #f3e687eb;
+}
+.up{
+  top: 180px;
+
+}
+.down{
+  top: 350px;
+}
+.joindoormonk{
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  /* height: 800px; */
+  
+}
+.detailjoin h1{
+  font-size: 3.4em;
+  text-decoration: underline;
+
+}
+.detailjoin p{
+  font-size: 2em;
+  line-height: 80px;
+}
+.detailjoin .joinnow{
+  height: 50px;
+  width: 280px;
+  position: relative;
+  font-size: 2em;
+  top: 250px;
+  left: 9vw
+}
+div.imgg{
+  display: flex;
+  flex-wrap:wrap ;
+  justify-content: space-around;
+}
+.heading{
+  font-size: 5em;
   text-align: center;
+  margin-top: 120px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.styleimage{
+  /* border: .1px solid rgb(59, 47, 47) ; */
+  box-shadow: 2px 2px 5px ;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #d1cce6;
+  color: #5562a1;
+  margin: 20px;
+}
+.styleimage img{
+  height: 250px;
+  margin: 2px;
+}
+.styleimage p{
+  font-size: 1.5em;
+}
+.copyright{
+  text-align: center;
+  background-color: white;
+  font-size: 2em;
+  border: 2px solid black;
+}
+div footer{
+  background-color: black;
 }
 
-.App-link {
-  color: #61dafb;
+/* login */
+div.flotingbox{
+  display: none;
+  position: fixed;
+  top: 30vh;
+  text-align: center;
+  background-color: white;
+  border: 2px solid red;
+  z-index: 4;
+  font-size: 3em;
+  width: 600px;
+  height: 500px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login{
+  font-size: 1.2em;
+}
+div.flotingbox input{
+  height: 42px;
+  width: 201px;
+}
+.button button{
+  height: 42px;
+  width: 201px;
+  background-color: #16163c;
+  color: #ff0a0a;
+  margin: 10px;
+}
+i#cut{
+  background: red;
+  float:right;
+  border: .1px solid red;
+  border-radius: 2px;
+  text-shadow: 2px 2px 5px;
+  box-shadow: 2px 2px 5px;
 }
