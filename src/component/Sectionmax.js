@@ -2,7 +2,7 @@ import React from 'react'
 import Image from './image'
 export default function Sectionmax(props) {
     return (
-        <>
+        <div class="section">
             <section className="defult">
                 <h1 className="bookinyouhand up">Book Your Favorite Nearest Salon/Gallery</h1>
                 <h1 className="bookinyouhand down">On Your Time</h1>
@@ -48,6 +48,6 @@ export default function Sectionmax(props) {
             </section>
 
 
-        </>
+        </div>
     )
 }

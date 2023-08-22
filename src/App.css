@@ -21,7 +21,7 @@ ul li{
   margin:  0 20px;
   text-shadow: -1px 4px 20px #d89a9a;
 }
-nav {
+nav.navbar {
   display: flex;
   justify-content: space-around;
   height: 75px;
@@ -169,6 +169,7 @@ div.flotingbox{
 div.flotingbox input{
   height: 42px;
   width: 201px;
+  font-size: .5em;
 }
 .button button{
   height: 42px;
@@ -188,4 +189,70 @@ div.flotingbox input{
 }
 .signup{
   display: none;
+}
+#menu,.labelmenu{
+  display: none;
+}
+/* check  it */
+ul.navlist li :hover{
+  color: white;
+}
+#menu:checked ~ ul.navlist{
+  right: 0%;
+}
+@media (max-width:1023px){
+div.section{
+  font-size: .5em;
+}
+nav.navbar ul.navlist{
+  display: block;
+}
+ul.navlist{
+  position: fixed;
+  top: 75px;
+  right: -100%;
+  transition: .5s;
+  background-color: #c31c1c;
+  width: 88%;
+  height: 100vh;
+  z-index: 5;
+}
+.labelmenu{
+  display: block;
+  line-height: 75px;
+  font-size: 2em;
+  color: rgb(229, 216, 216);
+}
+div.flotingbox input{
+  height: 42px;
+  width: 201px;
+  font-size: .4em;
+}
+div.flotingbox{
+  top: 200px;
+  font-size: 2em;
+  width: 350px;
+  height: 400px;
+}
+.styleimage img{
+  height: 150px;
+  margin: 1px;
+}
+.joindoormonk{
+  height: 350px;
+}
+.detailjoin p{
+  line-height: 30px;
+}
+.detailjoin .joinnow{
+  height: 20px;
+  width: 120px;
+  position: relative;
+  font-size: 2em;
+  top: 10px;
+  left: 4vw 
+}
+.copyright{
+  font-size: 1.2em;
+}
 }
