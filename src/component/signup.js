@@ -13,7 +13,7 @@ export default function Signup() {
       }
     return (
         <div>
-            <button name="cut" id="cut" onClick={remove} ><i class="fa-solid fa-xmark" id="cut"></i>
+            <button name="cut" id="cut" onClick={remove} ><i className="fa-solid fa-xmark" id="cut"></i>
             </button>
             <p className='email'>Email ID</p>
             <input type="text" name='usernamei' id='usernamei' placeholder='Email ID' />

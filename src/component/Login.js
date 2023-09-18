@@ -13,10 +13,11 @@ export default function Login() {
     signup.style.display = 'block'
 
   }
+  
   return (
     <div className="flotingbox">
       <div className="loginuser">
-        <button name="cut" id="cut" onClick={remove} ><i class="fa-solid fa-xmark" id="cut"></i>
+        <button name="cut" id="cut" onClick={remove} ><i className="fa-solid fa-xmark" id="cut"></i>
         </button>
         <h1 className='login'>Login</h1>
         <p className='username'>Username</p>
